@@ -2,16 +2,22 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>数组</title>
+    <title>流程控制语句</title>
     <script type="text/javascript">
-      //创建数组
-      var arr=['*','##',"***","&&","****","##*"];
-      arr[7]="**";
-      //显示数组长度
-      document.write(arr.length+"<br>");
-      //将数组内容输出，完成达到的效果。
-      document.write(arr[0]+"<br>"+arr[7]+"<br>"+arr[2]+"<br>"+arr[4]);
-
+      //第一步把之前的数据写成一个数组的形式,定义变量为 infos
+      new infos=[['小A','女',21,'大一'],['小B','男',24,'大三'],['小C','男',24,'大四'],['小D','女',21,'大一'],['小E','女',22,'大四'],['小F','男',21,'大一'],['小G','女',22,'大二'],['小H','女',20,'大三'],['小I','女',20,'大一'],['小J','男',20,'大三']];
+      //第一次筛选，找出都是大一的信息
+      for(i=0;i<10;i++)
+      {
+        if(info[i][3]=='大一')
+        {
+          if(info[i][1]=='女')
+          {
+            document.write(info[i][0]);
+          }
+        }
+      }
+      //第二次筛选，找出都是女生的信息
     </script>
   </head>
   <body></body>
