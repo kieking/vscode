@@ -2,31 +2,17 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>系好安全带,准备启航</title>
-    <!--引入外部文件的方式-->
-    <script src="script.js"></script>
+    <title>数组</title>
     <script type="text/javascript">
-      //多行注释
-        /*
-        我是多行注释！
-        我需要隐藏，
-        否则会报错哦！
-        */
+      //创建数组
+      var arr=['*','##',"***","&&","****","##*"];
+      arr[7]="**";
+      //显示数组长度
+      document.write(arr.length+"<br>");
+      //将数组内容输出，完成达到的效果。
+      document.write(arr[0]+"<br>"+arr[7]+"<br>"+arr[2]+"<br>"+arr[4]);
 
-      //在页面中显示文字
-        document.write("系好安全带,准备启航--目标JS");
-
-      //页面中弹出提示框
-      
-        var mychar="准备好了，起航吧！";
-        alert(mychar);
-      
-        
-
-      //单行注释
-         //我是单行注释，我也要隐藏起来！
     </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
